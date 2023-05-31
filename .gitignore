@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# Keep utils
+!.gitignore
+!Readme.md
+
+# Keep install scripts...
+!create_bootloader.sh
+!make_file_architecture.sh
+!extern_tools
+!extern_tools/build_tools.sh
+
+# Keep OS utils
+!OS
+!OS/initrd
+!OS/initrd/init
+!OS/cdboot
+!OS/cdboot/isolinux
+!OS/cdboot/isolinux/isolinux.cfg
