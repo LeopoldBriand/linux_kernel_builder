@@ -1,0 +1,6 @@
+#/bin/ash
+mount -t devtmpfs udev /dev
+mount -t sysfs sysfs /sys
+mount -t proc proc /proc
+clear
+exec /bin/nu
